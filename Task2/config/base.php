@@ -1,0 +1,1 @@
+<?php    /**    * set connection settings to the database    * mysql_connect - opens or reuses a connection to a MySQL server    * mysql_select_db - Select a MySQL database    */	$host = "localhost";	$user = "root";	$password = "";	$DBname = "guestbook";	$link = mysql_connect($host, $user, $password);	mysql_select_db($DBname, $link);?>

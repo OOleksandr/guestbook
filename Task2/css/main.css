@@ -1,0 +1,89 @@
+body{
+	background-color: #aca299;
+	font-family: Verdana;
+	font-size: 12px;
+	margin: 30px 100px 30px 100px;
+    
+}
+.main{
+    background-color:#fff;
+    border-radius:7px;
+    border:2px solid #604c3b;
+    padding:25px;
+}
+.decor{
+    background-image:url('../images/largedeco.png');
+    background-repeat: repeat x;
+    height:70px;
+}
+h3{
+    text-align:center;
+}
+h4{
+    text-align:left;
+}
+.bottom_block{
+    padding:10px 0px 10px 0px;
+}
+.left_block{
+    float:left;
+    text-align:left;
+}
+.right_block{
+    float:right;
+    text-align:right;
+    font-style:italic;
+}
+.hide_description{
+    cursor:pointer;
+    width:45px;
+}
+.created_at{
+    font-weight:bold;
+    color:#b3865f;
+    padding-top:14px;
+}
+a{
+    color:#4d3622;
+}
+a:visited{
+    color:#3c6d90;
+}
+a:hover{
+    color:#f07407;
+}
+input, textarea{
+	width:400px;
+}
+input.button{
+	width:100px;
+    margin-top:10px;
+}
+table{
+	font-size: 11px;
+    font-weight:normal;
+}
+table th{
+    text-align:left;
+    padding-right:5px;
+}
+table td, textarea{
+    text-align:justify;
+}
+table td.btn{
+    text-align:center;
+}
+.short_description{
+    font-size:11px;
+    color:#464543;
+}
+.description{
+    display:none;
+    font-size:11px;
+}
+.error{
+	color: red;
+	font-size: 16px;
+    text-align:center;
+    padding:5px;
+}
